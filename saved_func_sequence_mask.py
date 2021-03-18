@@ -1,4 +1,4 @@
-import tensorflow as tf'
+import tensorflow as tf
 
 def sequence_mask(X, valid_len, value = 0):
     """Mask irrelevant entries in sequences."""
