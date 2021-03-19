@@ -16,6 +16,10 @@ This repository contains `Tensorflow 2` code for Attention Mechanisms chapter of
 
 [10.7. Transformer](https://github.com/biswajitsahoo1111/D2L_Attention_Mechanisms_in_TF/blob/master/10_7_Transformer.ipynb)
 
+### Additional sections
+
+[9.7. Sequence to Sequence Learning](https://github.com/biswajitsahoo1111/D2L_Attention_Mechanisms_in_TF/blob/master/additional_sections/9_7_Sequence_to_Sequence_Learning.ipynb)
+
 ### How to run these code:
 
 The best way (in our opinion) is to either clone the repo (or download the zipped repo) and then run each notebook from the cloned (or extracted) folder. All the notebooks will run without any issue.
