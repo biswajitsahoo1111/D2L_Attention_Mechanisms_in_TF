@@ -21,7 +21,7 @@ This repository contains `Tensorflow 2` code for Attention Mechanisms chapter of
 
 [9.7. Sequence to Sequence Learning](https://github.com/biswajitsahoo1111/D2L_Attention_Mechanisms_in_TF/blob/master/additional_sections/9_7_Sequence_to_Sequence_Learning.ipynb)
 
-## Additional Chapters:
+### Additional Chapters:
 
 Chapter 17: [Generative Adversarial Networks](https://github.com/biswajitsahoo1111/D2L_Generative_Adversarial_Networks_in_TF)
 
