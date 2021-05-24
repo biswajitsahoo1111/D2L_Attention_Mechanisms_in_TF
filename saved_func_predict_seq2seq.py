@@ -9,7 +9,7 @@ def predict_seq2seq(net, src_sentence, src_vocab, tgt_vocab, num_steps, save_att
     src_tokens = truncate_pad(src_tokens, num_steps, src_vocab['<pad>'])
     # Add the batch axis
     enc_X = tf.expand_dims(src_tokens, axis = 0)
-    enc_outputs = net.encoder(enc_X, training = False)
+    enc_outputs = net.encoder(enc_X, enc_valid_len, training = False)
     dec_state = net.decoder.init_state(enc_outputs, enc_valid_len)
     # Add the batch axis
     dec_X = tf.expand_dims(tf.constant([tgt_vocab['<bos>']]), axis = 0)
@@ -22,7 +22,7 @@ def predict_seq2seq(net, src_sentence, src_vocab, tgt_vocab, num_steps, save_att
         pred = tf.squeeze(dec_X, axis = 0)
         # Save attention weights
         if save_attention_weights:
-            attention_weight_seq.append(net.decoder.attention_weights())
+            attention_weight_seq.append(net.decoder.attention_weights)
         # Once the end-of-sequence token is predicted, the generation of the
         # output sequence is complete
         if pred == tgt_vocab['<eos>']:
