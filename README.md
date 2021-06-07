@@ -1,6 +1,8 @@
 ![Tensorflow 2.4.1](https://img.shields.io/badge/Tensorflow-2.4.1-success.svg)
 # Tensorflow 2 code for D2L book's Attention Mechanisms chapter
 
+### **This code has been merged with D2L book. See PR: [1756](https://github.com/d2l-ai/d2l-en/pull/1756), [1768](https://github.com/d2l-ai/d2l-en/pull/1768)**
+
 This repository contains `Tensorflow 2` code for Attention Mechanisms chapter of [Dive into Deep Learning (D2L)](http://d2l.ai/) book. The chapter has 7 sections and code for each section can be found at the following links.
 
 [10.1. Attention Cues](https://github.com/biswajitsahoo1111/D2L_Attention_Mechanisms_in_TF/blob/master/10_1_Visualization_of_attention.ipynb)
